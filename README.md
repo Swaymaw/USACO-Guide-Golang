@@ -4,8 +4,12 @@ Attempting to solve all USACO Guide problems using Golang including formal testi
 
 ## Progress Meter:
 
-- Bronze(98) - ![6.12%](https://progress-bar.xyz/6/?style=minimal-matte)
-- Silver(211) - ![0%](https://progress-bar.xyz/0/?style=minimal-matte)
-- Gold(391) - ![0%](https://progress-bar.xyz/0/?style=minimal-matte)
-- Platinum(268) - ![0%](https://progress-bar.xyz/0/?style=minimal-matte)
-- Advanced(369) - ![0%](https://progress-bar.xyz/0/?style=minimal-matte)
+- Bronze(98) - ![6.12%](https://progress-bar.xyz/6/?style=flat)
+
+- Silver(211) - ![0%](https://progress-bar.xyz/0/?style=flat)
+
+- Gold(391) - ![0%](https://progress-bar.xyz/0/?style=flat)
+
+- Platinum(268) - ![0%](https://progress-bar.xyz/0/?style=flat)
+
+- Advanced(369) - ![0%](https://progress-bar.xyz/0/?style=flat)
