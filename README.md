@@ -4,7 +4,7 @@ Attempting to solve all USACO Guide problems using Golang including formal testi
 
 ## Progress Meter:
 
-- Bronze - 4/98
+- Bronze - 6/98
 - Silver - 0/211
 - Gold - 0/391
 - Platinum - 0/268
