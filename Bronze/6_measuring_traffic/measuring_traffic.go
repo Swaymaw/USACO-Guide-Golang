@@ -35,20 +35,8 @@ func getStartEndEstimate(sensors []SensorInfo) (int, int, int, int) {
 			start_ub = min(start_ub, val.ub+agg_ub)
 		}
 	}
-	agg_lb, agg_ub = 0, 0
-	for _, val := range sensors {
-		if val.loc == "on" {
-			agg_lb += val.lb
-			agg_ub += val.ub
-
-		} else if val.loc == "off" {
-			agg_lb -= val.ub
-			agg_ub -= val.lb
-
-		}
-	}
-	end_lb = max(end_lb, start_lb+agg_lb)
-	end_ub = min(end_ub, start_ub+agg_ub)
+	end_lb = max(end_lb, start_lb-agg_ub)
+	end_ub = min(end_ub, start_ub-agg_lb)
 
 	return start_lb, start_ub, end_lb, end_ub
 }
